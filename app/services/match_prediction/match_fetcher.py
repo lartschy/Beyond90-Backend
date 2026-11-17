@@ -38,4 +38,4 @@ class MatchFetcher:
             response = await client.get(url, params=params)
             matches = response.json().get("results", [])
 
-            return matches[:10]  # ✅ take up to 10
+            return matches[:10]  # take up to 10

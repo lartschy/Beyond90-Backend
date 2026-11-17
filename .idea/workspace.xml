@@ -4,35 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="805b2751-c1c3-4a65-a8b6-62d86e8a2803" name="Changes" comment="feat: set base api config">
-      <change afterPath="$PROJECT_DIR$/app/api/routes_fixtures.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/routes_predict_league.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/routes_predict_match.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/routes_stats.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/league_model.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/match_model.pkl " afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/h2h_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/league_prediction/league_features.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/league_prediction/league_fetcher.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/league_prediction/league_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/league_prediction/league_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/league_prediction/league_training.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/match_prediction/match_features.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/match_prediction/match_fetcher.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/match_prediction/match_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/match_prediction/match_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/matches_pred/dataset_builder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/matches_pred/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/matches_pred/score.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/matches_pred/service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/matches_pred/team_stats.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/table_prediction_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/train_model.py" afterDir="false" />
+    <list default="true" id="805b2751-c1c3-4a65-a8b6-62d86e8a2803" name="Changes" comment="feat: add prediction feature">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/routes_fixtures.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/routes_fixtures.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/routes_league.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/routes_league.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/api/routes_team.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/routes_team.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/core/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/data_preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/routes_league.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/football_api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/match_prediction/match_fetcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/match_prediction/match_fetcher.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +114,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758192010204</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: add prediction feature">
+      <option name="closed" value="true" />
+      <created>1779867604639</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1779867604639</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +131,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: base project" />
     <MESSAGE value="feat: set base api config" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: set base api config" />
+    <MESSAGE value="feat: add prediction feature" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add prediction feature" />
   </component>
 </project>

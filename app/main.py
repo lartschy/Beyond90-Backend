@@ -14,3 +14,5 @@ app.include_router(routes_predict_league.router, prefix="/api", tags=["league"])
 def healthcheck():
     return {"status": "ok"}
 
+
+
